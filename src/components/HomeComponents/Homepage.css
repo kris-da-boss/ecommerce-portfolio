@@ -1,0 +1,68 @@
+main{
+  padding: 10px;
+  background-color:  rgba(218, 149, 22, 0.281);
+}
+
+.blogs{
+    margin: 10px;
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+.blog{  
+    margin: 10px;
+    border: solid gold 1px;
+    border-radius: 10px;
+    color: black; 
+}
+.blog img{
+    border-radius: 10px 10px 0 0;
+     width: 200px;
+     height: 300px;
+}
+.blog p{
+    padding: 8px;
+}
+.ticker{
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: black;
+}
+.slideEffect{
+  display: inline-block;
+  animation: slide 10s linear infinite ;
+  color: white;
+  margin: 3px;
+}
+.slideEffect p{
+display: inline-block;
+margin-right: 50px;
+}
+@keyframes slide {
+  from{
+    transform: translateX(0%);
+  }
+  to{
+    transform: translate(-50%);
+  }
+}
+.advert{
+   position: relative;
+   width: 100vw;
+   height: 350px;
+   overflow:hidden;
+}
+.advertImage{
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Response */
+@media (min-width: 1024px) {
+  .blog img{
+ width: 100%;
+  }
+}
+
+

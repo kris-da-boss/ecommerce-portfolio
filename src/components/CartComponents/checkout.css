@@ -1,0 +1,107 @@
+.orderHeader{
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    padding: 10px;
+    background-color: rgb(77, 54, 13);
+    color: white;
+}
+.productSubtotal{
+    display: grid;
+    grid-template-columns: 1fr 100px;
+    align-items: center;
+    margin-top: 10px;
+}
+.finalSummary{
+    padding: 10px;
+    background-color: rgba(77, 54, 13, 0.726);
+    color: white;
+    border: gray solid 2px;
+    margin-top: 20px;
+}
+.finalSummary div{
+    display: grid;
+   grid-template-columns: 1fr 150px;
+   padding: 5px; 
+}
+.paymentSummary{
+    padding: 10px;
+    background-color: rgb(88, 29, 29);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+    padding-top: 20px;
+}
+.paymentSummary span{
+    text-decoration: underline;
+}
+.paymentWarning{
+   background-color: rgb(56, 9, 9);
+   padding: 10px;
+   border-radius: solid black   2px;
+   border-bottom: white solid 2px;
+}
+.comfirmOrder{
+    display: flex;  
+    gap:10px
+}
+.paymentSummary button{
+    width: 100%;
+    padding: 15px;
+    border: gray 2px solid;
+}
+.giftCard{
+   padding: 10px;
+   background-color: rgb(88, 29, 29);
+   margin-top: 20px;
+   margin-bottom: 20px;
+   color: white;
+}
+.returningCustomer{
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    background-color: rgb(204, 186, 154);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.checkoutForm{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    margin-bottom: 10px;
+}
+.checkoutForm div,label{
+    display: flex;
+    flex-direction: column;
+    gap:5px
+}
+.checkoutForm div, input{
+    padding: 10px;
+}
+.checkbox{
+    display: flex;
+    gap: 10px;
+    font-size: large;
+}
+.checkbox input{
+    margin-left:10px ;
+}
+.increaseFeeNote{
+display: grid;
+grid-template-columns: 1fr 290px;
+align-items: center;
+padding: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+background-color: rgb(204, 186, 154);
+}
+.orderNote{
+    height: 80px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,70 @@
+.NavBar{
+    background: linear-gradient(to bottom, orange, rgb(34, 33, 33));
+     position: fixed;
+     top:0;
+     left: 0;
+     width: 0;
+     height: 100vh;
+     z-index: 1000;
+     transition: width  0.2s ease-in;
+}      
+.open{
+   width: 100%;
+   transition: width 0.2s ease-in;
+   overflow: scroll;
+   scrollbar-width: none;
+}
+.CloseNav{
+    display: none;
+}
+.DisplayNav{
+    display: block; 
+    padding: 10px; 
+}
+.DisplayNav hr{
+    margin-top: 10px;
+}
+.closeIcon{
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    height: fit-content;
+}
+.nav-header{
+background-image: url('/public/logoImage.png');
+background-position: center;
+background-size: cover;
+height: 220px;
+display: flex;
+justify-content: end;
+
+}
+
+ .summary{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+ }
+ summary span{
+    display: flex; 
+    font-size: 20px;
+ }
+ .navList{
+    color: white;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:14px;
+    overflow: scroll;
+ }
+ .categoryList{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-top:10px;
+ }
+

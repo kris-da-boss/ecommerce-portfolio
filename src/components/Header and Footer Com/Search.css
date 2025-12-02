@@ -1,0 +1,32 @@
+.Search{
+position: fixed;
+top: 0;
+height: 100vh;
+width: 100vw;
+z-index: 1000;
+background-color: white;
+padding: 10px;
+overflow: auto;
+}
+.introDiv h3{
+    color:black
+}
+.introDiv{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.introDiv button{
+   height: fit-content;
+}
+.Search input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.Search input:focus{
+    outline: none;
+}
+.userSearch {
+    color:black
+}

@@ -1,0 +1,97 @@
+/* Header */
+.header{
+   margin: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between; 
+   background-color: white;
+}
+header > .headerIcon{
+display: flex;
+gap: 15px;
+}
+.headerIcon button{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer{
+    background-color: white;
+    color: white;
+    position: relative;
+    bottom: 0;
+   
+}
+footer{
+    padding: 10px;
+    padding-top: 20px;
+    background: linear-gradient(to right, orange, rgba(0, 0, 0, 0.842));
+}
+  .mediaIcon{
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+.Actions-Categories{
+   display: flex; 
+   gap: 50px;
+   padding-bottom: 40px;
+}
+.Actions-Categories div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.Contact{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-bottom: 10px;
+}
+.Contact br{
+    display: none;
+}
+.moreInfo{
+    display: flex;
+    gap: 15px;
+    padding-top: 20px;
+    place-content: center;
+}
+.RightsFooter{
+    display: flex;
+    place-content: center;
+    margin: 20px;
+}
+/* Footer Response */
+@media (min-width:700px) {
+    .section-md-large{
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+    }
+    .Contact br{
+        display: block;
+    }
+    .mediaIcon{
+    gap: 5rem;
+}
+}
+
+@media (min-width: 1000px){
+.section-md-large, .section-md-large .Actions-Categories{
+    gap: 10rem;
+}
+.mediaIcon{
+    gap: 5rem;
+}
+}

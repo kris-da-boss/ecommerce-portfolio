@@ -1,0 +1,90 @@
+.Links{
+    margin-top:20px;
+    margin-bottom:20px
+}
+.Links span{
+    color: black;
+}
+.description-image{
+width: 100%;
+height: 350px;
+}
+.productName{
+    font-size:xx-large;
+}
+.productPrice{
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.productDescription{
+    
+}
+.discountMessage-div{
+    display: flex;
+    justify-content: center;
+    
+}
+.discountMessage{
+    background-color:aliceblue; 
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.productStock{
+    font-weight: bold;
+    background-color: rgb(51, 36, 7);
+    color: white;
+    border-radius: 3px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.discount{
+    display: flex;
+    justify-content: space-between;
+    margin-right:20px;
+    margin-left: 20px;
+}
+.descriptionButton{
+    background-color: black;color: white;
+    display: flex; 
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 4px;
+    margin-bottom: 20px;
+}
+.descriptionButton div{
+    display: flex;
+}
+.descriptionButton >button{
+    width: 100%;
+    font-size: large;
+    background-color: black;
+    color: white;
+}
+.descriptionButton div p, .qantitiy-count{
+    padding: 10px;
+    border: none;
+    width: 40px;
+    background-color: white;
+    color: black;
+    font-size: large;
+}
+.extraNote{
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.extraNote div{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.reviews{
+    background-color: white;
+    margin-bottom: 10px;
+}
+.extraDescription{
+background-color: white;
+}

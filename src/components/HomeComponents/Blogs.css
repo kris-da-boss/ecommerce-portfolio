@@ -1,0 +1,91 @@
+/* Blog details */
+.blogHeader{
+  background-image: url('/productsImages/hairProducts/wig10.jpeg');
+  height: 200px; 
+ background-size: cover;
+ background-position: top;
+}
+.blogHeader div{
+    background-color: rgba(255, 166, 0, 0.63);
+    height: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blogHeader div h1{
+    color: white;
+    font-size:40px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.blogDetailsBody{
+    background-color: rgba(218, 149, 22, 0.281);
+    padding: 10px;
+}
+.blogDetails img{
+    width: 100%;
+    height: 450px;
+}
+.blogDetails h4{
+    margin: 10px;
+    font-size: larger;
+}
+/* Blog detail */
+.blogDetail{
+    background-color:  rgba(218, 149, 22, 0.281);
+    padding: 10px;
+}
+.blogDetail-description{
+    font-weight: bold;
+    color: black;
+}
+.blogDetail-image{
+    width: 100%;
+    height: 400px;
+}
+.blogDetails-relatedImages{
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+    gap: 5px;
+}
+.blogDetails-relatedImages div{
+     border: solid 1px white;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 10px;
+     border-radius: 10px;
+}
+.related-name{
+   font-weight: bold;
+}
+.relatedClickButton{
+    padding: 8px;
+    margin-top: 4px;
+    border-radius: 10px;
+    border: none;
+}
+.relatedClickButton .Link{
+    color: black;
+}
+.readMoreBlogButton{
+   padding: 10px;
+   width: 150px;
+   color: white;
+   background-color: rgb(218, 152, 152);
+   font-size:medium;
+   border: none;
+   border-radius: 4px;
+   
+}
+.readMoreDiv{
+    display: flex;
+    justify-content: center;
+}
+.blogTitle{
+    font-size: xx-large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

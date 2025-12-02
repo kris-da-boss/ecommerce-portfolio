@@ -1,0 +1,147 @@
+.cartHeader{
+    width: 100%;
+    background-image: url('./productsImages/hairProducts/download-1.webp');
+    height: 250px;
+    background-size: cover;
+}
+
+.cartHeader p, h2{
+    color: white
+}
+.navFlex{
+    display: flex;
+    gap:4px
+}
+.cartHeader > div{
+      background-color: rgba(255, 166, 0, 0.425); 
+      height:inherit;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+}
+.cartHeader h2{
+   font-family:'Times New Roman', Times, serif;
+   font-size: 40px;
+}
+.cartProduct{
+    border: solid rgb(192, 171, 171) 2px;
+    padding: 10px;
+}
+.cart-name-image{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-name-image img{
+    height: 120px;
+    width: 120px;
+}
+.cart-name-image div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.cart-name-image button{
+    background-color: rgb(65, 7, 7);
+    color: white;
+    border-radius: 3px;
+    width: 100px;
+}
+.cartPrice{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.cartQuantity{
+    display: flex;
+    justify-content: space-between;
+}
+.quantityCount{
+    display: flex;
+    border: solid 2px black;
+}
+.quantityCount button, p{
+    padding: 5px;
+}
+.quantityCount button{
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: rgb(65, 7, 7);
+  color: white;
+}
+.quantityCount p{
+     padding-right: 10px;
+     padding-left: 10px;
+}
+.subTotal{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.purchaseStage{
+    display: flex;
+    margin: 10px;
+    gap: 1px;
+}
+.stageIdentifer{
+    width: 6px;
+    background-color: rgb(219, 194, 148);
+    border-radius: 10px;
+    display: flex;
+}
+.stageIdentifer div{
+   background-color: rgb(65, 7, 7);
+   
+   width: 6px;
+   border-radius: inherit;
+}
+.purchaseStage p{
+    color: black;
+}
+.cartSummary{
+  margin-top: 20px; 
+}
+.cartTotal{
+    border: solid rgb(192, 171, 171) 2px ;
+    margin-top: 10px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+     
+}
+.cartTotal div{
+    border-bottom: 2px black solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+     border-radius: inherit; 
+     background-color: rgba(255, 255, 255, 0.247);
+}
+.form div{
+    display: flex;
+    justify-content: space-between;
+}
+.form input{
+    padding: 10px;
+    flex-grow: 1;
+    margin-right: 18px;
+}
+.form button{
+    width: 80px;
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+.checkoutButton{
+background-color: rgb(65, 7, 7);
+color: white;
+margin-top: 20px ;
+margin-bottom: 20px;
+width: 100%;
+padding: 20px;
+}
+.checkoutButton:active{
+   background-color: rgb(73, 9, 9);
+}
